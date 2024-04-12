@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Saurabh S. Gariya</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="logo">Saurabh</a>
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="mobile-menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main content after navbar -->
+    <div class="container">
+      <!-- hero section -->
+      <div class="hero-section">
+        <div class="hero-image">
+          <img src="./img/hero.png" alt="Saurabh" />
+        </div>
+        <div class="hero-about">
+          <p style="color: #cccccc; font-size: 1.5rem">Hello, I'm</p>
+          <p style="font-size: 2.6rem; font-weight: bold">
+            Saurabh Singh Gariya
+          </p>
+          <div class="changingTextContainer">Frontend Developer</div>
+          <div class="hero-about-button-container">
+            <a href="./Saurabh_Resume.pdf" download="Saurabh_Resume"
+              ><button class="hero-about-button">Download CV</button></a
+            >
+            <button class="hero-about-button" id="contactBtn">Contact Info</button>
+          </div>
+          <div class="hero-about-icons-container">
+            <a
+              href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/saurabh-singh-gariya">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-break"></div>
+
+      <!-- skills section -->
+
+      <section class="skills-section">
+        <p class="section-heading">Skills</p>
+        <div class="skills-items-wrapper">
+          <div class="skill-item">
+            <img src="./img/html-img.svg" alt="html img" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/css-img.svg" alt="CSS img" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/js-img.svg" alt="JS img" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/react-img.svg" alt="React img" />
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/redux-img.svg" alt="Redux img" />
+            <p>Redux</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/node-img.svg" alt="Node img" />
+            <p>NodeJs</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/express-img.svg" alt="Express img" />
+            <p>ExpressJs</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/mongo-img.svg" alt="Express img" />
+            <p>MongoDb</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/tailwind-img.svg" alt="Tailwind img" />
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="./img/git-img.svg" alt="GIT img" />
+            <p>GIT</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-break"></div>
+
+      <!-- about section -->
+
+      <section class="about-section" id="about">
+        <p class="section-heading">About Me</p>
+        <div class="about-content-wrapper">
+          <img src="./img/hero.png" alt="" />
+          <div class="about-content-right">
+            <div class="about-right-top">
+              <div class="about-inner-left">
+                <i class="fa-solid fa-clock"></i>
+                <p style="color: #d3d3d3; font-weight: bold">Experience</p>
+                <p>2+ years</p>
+                <p>Frontend Development</p>
+              </div>
+              <div class="about-inner-right">
+                <i class="fa-solid fa-award"></i>
+                <p style="color: #d3d3d3; font-weight: bold">Education</p>
+                <p>BCA - GGSIPU, New Delhi</p>
+                <p>MCA - CU, Punjab</p>
+              </div>
+            </div>
+            <p>
+              Meet Saurabh, a frontend developer with 2 years of experience,
+              skilled in backend technologies. He is passionate about clean
+              code, problem-solving, and staying updated on tech trends while
+              crafting user-friendly websites and apps.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-break"></div>
+
+      <!-- project section -->
+
+      <section class="project-section" id="projects">
+        <p class="section-heading">Some Things I've Built!</p>
+        <div class="projects-section-wrapper">
+          <div class="single-project-section flex-reverse">
+            <img src="./img/project-1.png" alt="" />
+            <div class="project-details-side">
+              <h2>01. Sunshine- Weather Discovery App</h2>
+              <p class="project-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                quisquam voluptas numquam ullam iste in dolores soluta quis
+                voluptatibus quibusdam inventore et pariatur impedit ratione, ea
+                sapiente rerum illum. Deleniti.
+              </p>
+              <ul class="tech-stack-used">
+                <li>React</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="project-section-links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/saurabh-singh-gariya">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="single-project-section">
+            <img src="./img/project-1.png" alt="" />
+            <div class="project-details-side">
+              <h2>01. Sunshine- Weather Discovery App</h2>
+              <p class="project-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                quisquam voluptas numquam ullam iste in dolores soluta quis
+                voluptatibus quibusdam inventore et pariatur impedit ratione, ea
+                sapiente rerum illum. Deleniti.
+              </p>
+              <ul class="tech-stack-used">
+                <li>React</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="project-section-links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/saurabh-singh-gariya">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="single-project-section flex-reverse">
+            <img src="./img/project-1.png" alt="" />
+            <div class="project-details-side">
+              <h2>01. Sunshine- Weather Discovery App</h2>
+              <p class="project-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                quisquam voluptas numquam ullam iste in dolores soluta quis
+                voluptatibus quibusdam inventore et pariatur impedit ratione, ea
+                sapiente rerum illum. Deleniti.
+              </p>
+              <ul class="tech-stack-used">
+                <li>React</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="project-section-links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/saurabh-singh-gariya">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="single-project-section">
+            <img src="./img/project-1.png" alt="" />
+            <div class="project-details-side">
+              <h2>01. Sunshine- Weather Discovery App</h2>
+              <p class="project-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                quisquam voluptas numquam ullam iste in dolores soluta quis
+                voluptatibus quibusdam inventore et pariatur impedit ratione, ea
+                sapiente rerum illum. Deleniti.
+              </p>
+              <ul class="tech-stack-used">
+                <li>React</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="project-section-links">
+                <a
+                  href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/saurabh-singh-gariya">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+
+      <div class="section-break"></div>
+
+      <section class="contact-section" id="contact">
+        <p class="section-heading">Get In Touch!</p>
+        <ul class="contact-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/saurabh-singh-gariya-951b89209/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/saurabh-singh-gariya">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto: sgariya038@gmail.com"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+      let typed = new Typed(".changingTextContainer", {
+        strings: [
+          "Frontend Developer",
+          "Backend Developer",
+          "Full-Stack Developer",
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
